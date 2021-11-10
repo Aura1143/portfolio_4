@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000000;
+}
+
+/*----------------------------------------------------------------------------------
+ログインフォーム内のスタイル
+----------------------------------------------------------------------------------*/
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  box-shadow: 0 0 15px #3498db, inset 0 3px 15px #3498db;
+  border-top: 1px solid #3498db;
+  border-left: 1px solid #3498db;
+  border-right: 1px solid #3498db;
+  border-bottom: 1px solid #3498db;
+  border-radius: 24px;
+  text-align: center;
+}
+.box h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 30px 0;
+  letter-spacing: 2px;
+  position: relative;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
+}
+.box h1::after,
+.box h1::before {
+  background-color: #fff;
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 25px;
+  width: 85px;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
+}
+.box h1::after {
+  right: 0;
+}
+.box h1::before {
+  left: 0;
+}
+
+/*----------------------------------------------------------------------------------
+ソーシャルボタン
+----------------------------------------------------------------------------------*/
+.social-buttons i {
+  margin: 10px;
+  justify-content: center;
+  color: #fff;
+}
+
+/*----------------------------------------------------------------------------------
+ユーザー名とパスワード入力ボックス
+----------------------------------------------------------------------------------*/
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+/*----------------------------------------------------------------------------------
+入力ボックス（ユーザー名・パスワード）が選択された時 ⇒ 幅が大きくなる ＆ 枠の色が変わる
+----------------------------------------------------------------------------------*/
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+/*----------------------------------------------------------------------------------
+ログインボタン
+----------------------------------------------------------------------------------*/
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------
+ログインボタンにホバーされた時
+----------------------------------------------------------------------------------*/
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+  box-shadow: 0px 0px 12px 0px #2ecc71;
+}
