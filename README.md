@@ -24,7 +24,7 @@
 
 ### App URL
 
-**Herokuへデプロイ中...**
+**https://near-future.herokuapp.com/**
 
 ---
 
