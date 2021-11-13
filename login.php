@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-	  <meta charset="utf-8" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-	  <!-- Bootstrap v5.0.0 -->
-	  <link
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap v5.0.0 -->
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-	    crossorigin="anonymous">
-	  <script
+      crossorigin="anonymous">
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-	    crossorigin="anonymous">
+      crossorigin="anonymous">
     </script>
-	  <title>Home</title>
+    <title>Home</title>
   </head>
   <style type="text/css">
-	* {
+  * {
     margin: 0;
     padding: 0;
-	}
-	.layout {
-	  position: relative;
-	}
-	.layout a {
-	  position: absolute;
-	  margin: 5px;
-	}
-	.layout img {
-	  width: 100%;
-	  height: 100vh;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	  background-position: center;
+  }
+  .layout {
+    position: relative;
+  }
+  .layout a {
+    position: absolute;
+    margin: 5px;
+  }
+  .layout img {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+　  background-size: cover;
+　　background-position: center;
   }
   </style>
   <body>
@@ -69,10 +69,10 @@
     echo $success;
   ?>
     <div class="layout">
-	    <div class="d-flex justify-content-end">
-		    <a class="btn btn-outline-light" href="index.html" role="button">Logout</a>
-		    <img src="success.jpg" />
-	    </div>
+　    <div class="d-flex justify-content-end">
+	<a class="btn btn-outline-light" href="index.html" role="button">Logout</a>
+　　    <img src="success.jpg" />
+　　  </div>
     </div>
   <?php
     }else {
@@ -81,10 +81,10 @@
     echo $failure;
   ?>
     <div class="layout">
-	    <div class="d-flex justify-content-end">
-		    <a class="btn btn-outline-light" href="index.html" role="button">back</a>
-		    <img src="failure.jpg" />
-	    </div>
+　    <div class="d-flex justify-content-end">
+	<a class="btn btn-outline-light" href="index.html" role="button">back</a>
+	<img src="failure.jpg" />
+　　  </div>
     </div>
   <?php
     $result = false;
