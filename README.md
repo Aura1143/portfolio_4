@@ -5,19 +5,33 @@
 <h3 align="center">－ Application Technology －</h3>
 
 <p align="center">
+ <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50px;" />
-  <a>　</a>
+ </a>
+ <a>　</a>
+ <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50px;" />
-  <a>　</a>
-  <img src="https://iconape.com/wp-content/png_logo_vector/fontawesome.png" height="50px;" />
-  <a>　</a>
-  <img src="https://iconape.com/wp-content/png_logo_vector/bootstrap-3.png" height="50px"; />
-  <a>　</a>
+ </a>
+ <a>　</a>
+ <a href="https://fontawesome.com/" target="_blank" rel="noreferrer">
+  <img src="https://s4.aconvert.com/convert/p3r68-cdx67/acioi-g7w7a.svg" height="50px;" />
+ </a>
+ <a>　</a>
+ <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+  <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1mrr-jggxa.svg" height="50px"; />
+ </a>
+ <a>　</a>
+ <a href="https://www.php.net" target="_blank" rel="noreferrer">  
   <img src="https://iconape.com/wp-content/files/ac/371303/svg/371303.svg" width="80px" height="50px"; />
-  <a>　</a>
-  <img src="https://iconape.com/wp-content/png_logo_vector/mysql-logo.png" height="50px"; />
-  <a>　</a>
+ </a>
+ <a>　</a>
+ <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">  
+  <img src="https://s4.aconvert.com/convert/p3r68-cdx67/azudw-tomnd.svg" height="50px"; />
+ </a>
+ <a>　</a>
+ <a href="https://heroku.com" target="_blank" rel="noreferrer">  
   <img src="https://iconape.com/wp-content/files/xn/371066/svg/371066.svg" height="50px"; />
+ </a>
 </p>
 
 ---
