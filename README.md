@@ -40,6 +40,13 @@
 
 **https://near-future.herokuapp.com/**
 
+Herokuの無料プラン廃止に伴い、このポートフォリオは表示できなくなりました。（2022/11/28）  
+ご迷惑をおかけしますが、何卒ご理解いただきますようお願い申し上げます。
+
+
+@[card](https://blog.heroku.com/next-chapter)
+
+
 ---
 
 ### Theme
